@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VN7 | أبوعتب للبرمجة والتكنولوجيا</title>
+    <style>
+        :root {
+            --bg-dark: #0d001a;
+            --card-bg: #1a0b2e;
+            --accent-purple: #8e2de2;
+            --text-white: #ffffff;
+            --grad-btn: linear-gradient(90deg, #8e2de2, #4a00e0);
+            --grad-vng: linear-gradient(90deg, #6a11cb, #2575fc);
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-white);
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            margin: 0; padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 5%;
+            background: rgba(13, 0, 26, 0.95);
+            border-bottom: 2px solid var(--accent-purple);
+            position: sticky; top: 0; z-index: 1000;
+        }
+
+        .logo { font-size: 28px; font-weight: bold; }
+        .logo span { color: #bb86fc; text-shadow: 0 0 10px #8e2de2; }
+
+        .container { max-width: 600px; margin: 20px auto; padding: 15px; }
+
+        .hero-btn {
+            background: var(--grad-btn);
+            padding: 18px;
+            border-radius: 20px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 12px;
+            box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+            transition: 0.3s;
+        }
+
+        .section-title {
+            font-size: 20px;
+            color: #00e5ff;
+            margin: 30px 0 15px;
+            text-align: right;
+            padding-right: 15px;
+            border-right: 5px solid var(--accent-purple);
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .card {
+            background: #110621;
+            border-radius: 20px;
+            padding: 15px;
+            text-align: right;
+            border: 1px solid #251042;
+        }
+
+        .card h2 { font-size: 16px; margin-bottom: 10px; color: #fff; }
+        .features { padding: 0; list-style: none; margin-bottom: 15px; font-size: 11px; color: #aaa; }
+        .features li::before { content: "✦"; color: var(--accent-purple); margin-left: 5px; }
+
+        .btn-sm {
+            display: block;
+            text-align: center;
+            padding: 10px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 12px;
+            margin-top: 8px;
+        }
+        .btn-purple { background: var(--grad-btn); }
+        .btn-red { background: #ff3838; }
+        .btn-blue { background: #007bff; }
+        .btn-vng { background: #00c853; }
+
+        footer {
+            margin-top: 50px; padding: 30px; background: #000; text-align: center;
+            font-size: 13px; color: #777;
+        }
+
+        @media (max-width: 480px) { .grid-container { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+
+<header>
+    <div style="color: var(--accent-purple); font-size: 24px;">☰</div>
+    <div class="logo">V<span>N7</span></div>
+</header>
+
+<div class="container">
+    <a href="itms-services://?action=download-manifest&url=https://skibx.com/ota.plist" class="hero-btn">Skibx Install 📥</a>
+    <a href="https://www.mediafire.com/file/z7vlijutetijzc4/SkibX+VN.apk/file" class="hero-btn" style="background: var(--grad-vng);">Skibx VNG Install 📥</a>
+    <a href="https://discord.gg/haX59nFsM" class="hero-btn" style="background: #5865F2;">انضم للديسكورد 💬</a>
+
+    <div class="section-title">قائمة الآيفون 🍎</div>
+    <div class="card" style="margin-bottom: 15px;">
+        <h2>Delta iOS</h2>
+        <div style="display: flex; gap: 8px;">
+            <a href="https://bot1.org/xu1PTmDj" class="btn-sm btn-purple" style="flex:1">مباشر</a>
+            <a href="https://cdn.gloopup.net/file/Delta-2.701.966.ipa" class="btn-sm btn-blue" style="flex:1">iPA</a>
+            <a href="https://wsfteam.xyz/files/configurationprofiles/WSF-CP144.mobileconfig" class="btn-sm btn-vng" style="flex:1">DNS</a>
+        </div>
+    </div>
+
+    <div class="section-title">قائمة الأندرويد 🤖</div>
+    <div class="grid-container">
+        <div class="card">
+            <h2>Delta Android</h2>
+            <ul class="features"><li>أقوى حماية</li><li>بحث سكريبتات</li></ul>
+            <a href="https://www.mediafire.com/file/p9u8k6f32x3y7wt/Delta-2.706.750.apk/file" class="btn-sm btn-red">العادي</a>
+            <a href="https://www.mediafire.com/file/2yvmxorcl1oje5m/DELTA_VN%25282%2529.apk/file" class="btn-sm btn-vng">نسخة VNG</a>
+        </div>
+        <div class="card">
+            <h2>Arceus X Neo</h2>
+            <ul class="features"><li>واجهة أسطورية</li><li>سهولة الاستخدام</li></ul>
+            <a href="https://www.mediafire.com/file/hmkzfu05rln3ott/Roblox_-_Arceus_X_v5_1.2.7_%2528FIXED%2529.apk/file" class="btn-sm btn-red">تحميل</a>
+        </div>
+    </div>
+
+    <div class="section-title">قائمة الكمبيوتر 💻</div>
+    <div class="card">
+        <h2>برو هاكر & سيمو</h2>
+        <div style="display: flex; gap: 10px;">
+            <a href="https://gofile.io/d/6npfj8" class="btn-sm btn-blue" style="flex:1">Pro Hacker</a>
+            <a href="https://www.dropbox.com/scl/fi/8v43w4rtmygm1gs77da0b/Semo-Bootstrapper-v1.2.zip?dl=1" class="btn-sm btn-blue" style="flex:1">Semo PC</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    VN7 | من صنع <b>أبوعتب للبرمجة والتكنولوجيا</b><br>
+    جميع الحقوق محفوظة 2026
+</footer>
+
+</body>
+</html>
